@@ -5,6 +5,7 @@ import java.util.Map;
 
 public class Main {
 
+    // Checks if string is a permutation of another string
     public static void main(String[] args) {
 
 	String s1="acccbdda";
