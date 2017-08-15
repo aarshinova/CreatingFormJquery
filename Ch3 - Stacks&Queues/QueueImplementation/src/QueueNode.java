@@ -7,7 +7,6 @@ public class QueueNode {
         if (first==null){
             first = new Node(data);
             last = first;
-            first.setNext(last);
         }else{
             Node node = new Node(data);
             last.setNext(node);
