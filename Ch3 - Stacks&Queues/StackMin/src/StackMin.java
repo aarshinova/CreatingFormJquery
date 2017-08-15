@@ -22,7 +22,7 @@ public class StackMin extends Stack<Integer> {
         Integer obj = super.pop();
         if (minStack.size() != 0) {
             Integer min = minStack.peek();
-            if (obj == min)
+            if (obj.equals(min))
                 minStack.pop();
         }
         return obj;

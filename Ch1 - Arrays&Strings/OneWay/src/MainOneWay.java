@@ -13,6 +13,7 @@ public class MainOneWay {
         else
             System.out.println("The result is " + oneWay(c,s));
 
+        Ò
     }
 
     public static boolean oneWay(String c, String s) {
