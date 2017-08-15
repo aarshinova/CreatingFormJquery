@@ -15,7 +15,7 @@ public class Main {
        node.pop();
        node.pop();
 
-       System.out.println("After poping some elements");
+       System.out.println("After poping 2 elements");
        node.printAllNodes();
     }
 }
