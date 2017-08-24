@@ -11,7 +11,6 @@ public class Main {
         Node newNode7 = new Node(7);
         Node newNode8 = new Node(8);
 
-
         list.setNext(newNode10);
         newNode10.setNext(newNode11);
         newNode11.setNext(newNode12);
@@ -25,10 +24,11 @@ public class Main {
         Node loopNode =
             detectLoop(list);
 
-        System.out.println("Loop node : " + loopNode.getData());
+        if (loopNode!=null)
+            System.out.println("Loop node : " + loopNode.getData());
+        else
+            System.out.println("No loop detected");
     }
-
-
 
 
     public static Node detectLoop(Node list){
