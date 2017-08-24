@@ -18,8 +18,7 @@ public class Main {
         newNode13.setNext(newNode6);
         newNode6.setNext(newNode7);
         newNode7.setNext(newNode8);
-        newNode8.setNext(newNode13); // circular list
-
+        newNode8.setNext(newNode13); // circular list<
 
         Node loopNode =
             detectLoop(list);
