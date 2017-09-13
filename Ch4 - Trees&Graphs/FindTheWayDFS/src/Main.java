@@ -36,7 +36,7 @@ public class Main {
                 if (child.equals(end)) {
                     res.setRes(true);
                 }
-                findDFS(child,end, res);
+                findDFS(child, end, res);
             }
     }
 }
