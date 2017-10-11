@@ -1,0 +1,263 @@
+{
+  "rc": 1,
+  "msg": "Success",
+  "data": {
+    "name": "conf-session",
+    "header": "Conference Session",
+    "id": 909090,
+    "fields": [
+      {
+        "instruction": "Enter the tile of the session",
+        "valueType": "string",
+        "name": "title",
+        "id": 1,
+        "label": "Title",
+        "type": "text",
+        "required": 1,
+        "maxLength": 200,
+        "order": 10
+      },
+      {
+        "instruction": "Describe the purpose of this session",
+        "valueType": "string",
+        "name": "desc",
+        "id": 2,
+        "label": "Description",
+        "type": "textarea",
+        "required": 0,
+        "maxLength": 2000,
+        "order": 15
+      },
+      {
+        "instruction": "Select subjects covered in this session",
+        "name": "sub",
+        "options": [
+          {
+            "id": 1,
+            "name": "Arm Surgery"
+          },
+          {
+            "id": 71,
+            "name": "Elbow Surgery"
+          },
+          {
+            "id": 34,
+            "name": "Hand Surgery"
+          },
+          {
+            "id": 100,
+            "name": "Hand and Wrist Surgery"
+          },
+          {
+            "id": 101,
+            "name": "Knee Surgery"
+          },
+          {
+            "id": 188,
+            "name": "Nerve Surgery"
+          },
+          {
+            "id": 245,
+            "name": "Pediatric Hand Surgery"
+          },
+          {
+            "id": 29,
+            "name": "Bone and Mineral Metabolism"
+          },
+          {
+            "id": 198,
+            "name": "Nerve Repair"
+          },
+          {
+            "id": 263,
+            "name": "Pediatric Nerve Repair"
+          },
+          {
+            "id": 264,
+            "name": "Peripheral Nerve Surgery"
+          }
+        ],
+        "id": 15,
+        "label": "Subjects Covered",
+        "type": "mselect",
+        "required": 1,
+        "order": 20
+      },
+      {
+        "id": 22,
+        "type": "sep",
+        "order": 22
+      },
+      {
+        "instruction": "Bulding, floor, and room",
+        "valueType": "string",
+        "name": "loc",
+        "id": 3,
+        "label": "Location",
+        "type": "text",
+        "required": 1,
+        "maxLength": 200,
+        "order": 30
+      },
+      {
+        "instruction": "Enter in mm/dd/yyyy",
+        "valueType": "mm/dd/yyyy",
+        "name": "date",
+        "id": 4,
+        "label": "Session Date",
+        "type": "text",
+        "required": 1,
+        "maxLength": 10,
+        "order": 40
+      },
+      {
+        "instruction": "Enter in hh:mm",
+        "valueType": "hh:mm",
+        "name": "start",
+        "id": 5,
+        "label": "Start Time",
+        "type": "text",
+        "required": 1,
+        "maxLength": 10,
+        "order": 50
+      },
+      {
+        "instruction": "Enter in hh:mm",
+        "valueType": "hh:mm",
+        "name": "end",
+        "id": 6,
+        "label": "End Time",
+        "type": "text",
+        "required": 1,
+        "maxLength": 10,
+        "order": 60
+      },
+      {
+        "id": 23,
+        "type": "sep",
+        "order": 65
+      },
+      {
+        "instruction": null,
+        "name": "ref",
+        "id": 7,
+        "label": "Refreshments Provided",
+        "type": "check",
+        "required": 0,
+        "order": 70
+      },
+      {
+        "instruction": "Select a session chair person",
+        "name": "chair",
+        "options": [
+          {
+            "id": 1,
+            "name": "Dr. James Kane"
+          },
+          {
+            "id": 2,
+            "name": "Dr. Emily Henderson"
+          },
+          {
+            "id": 3,
+            "name": "Dr. Steven Shaw"
+          },
+          {
+            "id": 4,
+            "name": "Dr. Eve Malkin"
+          },
+          {
+            "id": 5,
+            "name": "Dr. Sammy Fedorov"
+          },
+          {
+            "id": 6,
+            "name": "Dr. Katheryn Johson"
+          },
+          {
+            "id": 7,
+            "name": "Dr. Sidney Watson"
+          },
+          {
+            "id": 8,
+            "name": "Dr. Tsangko Kornin"
+          },
+          {
+            "id": 9,
+            "name": "Dr. Case Nick"
+          },
+          {
+            "id": 10,
+            "name": "Dr. George Mako"
+          },
+          {
+            "id": 11,
+            "name": "Dr. Baldwin Hamm"
+          }
+        ],
+        "id": 8,
+        "label": "Chair",
+        "type": "sselect",
+        "required": 1,
+        "order": 80
+      },
+      {
+        "instruction": "Select session co-chairs",
+        "name": "cochair",
+        "options": [
+          {
+            "id": 1,
+            "name": "Dr. James Kane"
+          },
+          {
+            "id": 2,
+            "name": "Dr. Emily Henderson"
+          },
+          {
+            "id": 3,
+            "name": "Dr. Steven Shaw"
+          },
+          {
+            "id": 4,
+            "name": "Dr. Eve Malkin"
+          },
+          {
+            "id": 5,
+            "name": "Dr. Sammy Fedorov"
+          },
+          {
+            "id": 6,
+            "name": "Dr. Katheryn Johson"
+          },
+          {
+            "id": 7,
+            "name": "Dr. Sidney Watson"
+          },
+          {
+            "id": 8,
+            "name": "Dr. Tsangko Kornin"
+          },
+          {
+            "id": 9,
+            "name": "Dr. Case Nick"
+          },
+          {
+            "id": 10,
+            "name": "Dr. George Mako"
+          },
+          {
+            "id": 11,
+            "name": "Dr. Baldwin Hamm"
+          }
+        ],
+        "id": 9,
+        "label": "Chair",
+        "type": "mselect",
+        "required": 0,
+        "order": 90
+      }
+    ]
+  },
+  "next": null,
+  "sEcho": null
+}
